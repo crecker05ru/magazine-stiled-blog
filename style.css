@@ -26,6 +26,21 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 10px #e4e4e4;
     font-style: italic;
+    z-index: 3;
+    width: 250px;
+    height: 30px;
+}
+
+.header-search__button_icon{
+    background-image: url("images/magnifyingGlass.png");
+    width: 16px;
+    height: 13px;
+    cursor: pointer;
+    z-index: 5;
+    position: absolute;
+    right: 365px;
+    top:50px;
+    
 }
 .header-navigation{
     display: flex;
