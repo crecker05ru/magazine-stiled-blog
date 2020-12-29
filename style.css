@@ -119,25 +119,34 @@ body {
 }
 .main-content-head-news{
     display: inline-block;
+    padding-left: 40px;
+}
+
+.main-content-head-news-box{
+    display: flex;
+    padding-bottom: 5px;
 }
 .main-content-head-news-icon{
     background-image: url("images/newsIcon.png");
     width: 32px;
     height: 27px;
-    display: inline-block;
 }
 
 .main-content-head-news-text{
-    display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     color: #c8c8c8;
     font-weight: 700;
+    padding-left:10px;
+    margin:0;
 }
 .main-content-head-news-content-post-container{
     width: 350px;
-    height: 60px;
+    height: 56px;
     
+}
+.main-content-head-news-content-article{
+    display: flex;
 }
 .main-content-head-news-content-article-image{
     background-image: url("images/articleIcon.png");
@@ -145,16 +154,45 @@ body {
     height: 44px;
     border: #dcdcdc 5px solid;
     border-radius: 10px;
-    display: inline-block;
 }
 .main-content-head-news-content-article-text{
-    display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
-    padding: 0 0 10px 20px;
-    position: relative;
+    padding: 15px 0 10px 20px;
 }
 .main-content-head-news-content-article-date{
     color: #e76b8a;
     font-size: 10px;              
+}
+
+.main-content-head-news-content-post-container-divider{
+    border-bottom: #d7d7d7 3px dashed;
+    width: 280px;
+    margin-left: 75px;
+}
+.main-content-centre-news-container{
+    width: 290px;
+    height: 300px;
+
+}
+.main-content-centre-news-container-head{
+    display: inline-block;
+}
+.main-content-centre-news-container-head-tag{
+    display: inline-block;
+    background-color: #de004e;
+    border-radius: 10px;
+    color: #fff;
+}
+.main-content-centre-news-container-head-date{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: #a0a0a0;
+}
+.main-content-centre-news-container-head-title{
+    margin:0;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 }
