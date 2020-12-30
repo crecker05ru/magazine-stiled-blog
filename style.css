@@ -237,6 +237,7 @@ body {
     display: flex;
     justify-content: space-between;
     border: #000 3px solid;
+    width: 500px;
 }
 .main-content-bottom-left-content-community_head{
     display: flex;
@@ -254,4 +255,88 @@ body {
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #c4c4c4;
+}
+
+.main-content-bottom-left-content-community-person-post{
+    display: flex;
+}
+.main-content-bottom-left-content-community-person-user-icon{
+    background-image: url("images/userIcon.png");
+    width: 19px;
+    height: 17px;
+
+}
+
+.main-content-bottom-left-content-community-person-post-textContent{
+    width: 220px;
+    height: 90px;
+    margin-left: 20px;
+}
+.main-content-bottom-left-content-community-person-post-date{
+    color:#de004e;
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.main-content-bottom-left-content-community-person-post-text{
+    text-align: justify;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6e6e6e;
+    margin-top: 0;
+}
+.community-person-userName{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+}
+.main-content-bottom-left-content-archives-icon{
+    background-image: url("images/archivesIcon.png");
+    width:32px ;
+    height: 29px;
+}
+.main-content-bottom-left-content-archives_head{
+    display: flex;
+}
+.main-content-bottom-left-content-archives-head-text{
+    margin-top: 0;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #c4c4c4;
+}
+
+.main-content-bottom-left-content-archives-date-box{
+    display: flex;
+}
+.main-content-bottom-left-content-archives-date-left,.main-content-bottom-left-content-archives-date-right{
+    width: 130px;
+}
+
+.archives-date-text{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6e6e6e;
+}
+
+.archives-date-previous{
+    color: #de004e;
+    font-size: 11px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.main-content-bottom-right-content-photos{
+    width: 160px;
+    height: 102px;
+    border:#6e6e6e 3px solid;
+    border-radius: 5px;
+}
+.main-content-bottom-right-content-photos-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+.person{
+    background-image: url("images/photosPerson.png");
 }
