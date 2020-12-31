@@ -244,6 +244,7 @@ body {
 }
 .main-content-bottom-left-content-community{
     border-bottom: rgba(196,196,196, 0.3) 2px solid;
+    width: 275px;
 }
 .main-content-bottom-left-content-community_head{
     display: flex;
@@ -296,6 +297,9 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #000;
 }
+.main-content-bottom-left-content-archives{
+    margin-top: 20px;
+}
 .main-content-bottom-left-content-archives-icon{
     background-image: url("images/archivesIcon.png");
     width:32px ;
@@ -336,10 +340,13 @@ body {
     margin:15px 0 0 40px;
 }
 .main-content-bottom-right-content-photos_head,.main-content-bottom-right-content-videos-head{
-    margin:0 0 10px 0;
+    margin:0 0 30px 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     color: #c4c4c4;
+}
+.main-content-bottom-right-content-videos{
+    margin-top: 40px;
 }
 .main-content-bottom-right-content-photos_head-content_flexbox{
     display: flex;
@@ -353,10 +360,13 @@ body {
     width: 480px;
 }
 .main-content-bottom-right-content-photos,.videos-content-image{
-    width: 160px;
-    height: 102px;
-    border: #e3e3e3 3px solid;
+    width: 175px;
+    height: 110px;
+    border: #e3e3e3 5px solid;
     border-radius: 5px;
+}
+.background-size_cover{
+    background-size: cover;
 }
 .main-content-bottom-right-content-photos-box,.main-content-bottom-right-content-videos-box{
     display: grid;
@@ -407,4 +417,34 @@ body {
 }
 .text{
     background-image: url("images/text.png");
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    margin: 10px 0 20px 130px;
+}
+.footer-copyright-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    color: #7f7f7f;
+}
+.footer-copyright-design{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: #de004e;
+}
+.footer-socials{
+    display: flex; 
+}
+.footer-socials-rss{
+    background-image: url("images/rssIcon.png");
+    width: 32px;
+    height: 26px;
+}
+.footer-socials-twitter{
+    background-image: url("images/twitterIcon.png");
+    width: 32px;
+    height: 26px;
 }
