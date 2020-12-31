@@ -236,8 +236,14 @@ body {
 .main-content-bottom{
     display: flex;
     justify-content: space-between;
-    border: #000 3px solid;
-    width: 500px;
+    border-right: rgba(196,196,196, 0.3) 2px solid;
+    width: 275px;
+}
+.main-content-bottom-left-content{
+    margin:15px 0 0 0;
+}
+.main-content-bottom-left-content-community{
+    border-bottom: rgba(196,196,196, 0.3) 2px solid;
 }
 .main-content-bottom-left-content-community_head{
     display: flex;
@@ -326,17 +332,79 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-.main-content-bottom-right-content-photos{
+.main-content-bottom-right-content{
+    margin:15px 0 0 40px;
+}
+.main-content-bottom-right-content-photos_head,.main-content-bottom-right-content-videos-head{
+    margin:0 0 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #c4c4c4;
+}
+.main-content-bottom-right-content-photos_head-content_flexbox{
+    display: flex;
+}
+.main-content-bottom-right-content-photos-icon{
+    background-image: url("images/photocamIcon.png");
+    width: 32px;
+    height: 27px;
+}
+.main-content-bottom-right-content-photos-frame,.main-content-bottom-right-content-videos-frame{
+    width: 480px;
+}
+.main-content-bottom-right-content-photos,.videos-content-image{
     width: 160px;
     height: 102px;
-    border:#6e6e6e 3px solid;
+    border: #e3e3e3 3px solid;
     border-radius: 5px;
 }
-.main-content-bottom-right-content-photos-box{
+.main-content-bottom-right-content-photos-box,.main-content-bottom-right-content-videos-box{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
 }
 .person{
     background-image: url("images/photosPerson.png");
+}
+.soldiers{
+    background-image: url("images/soldiers.png");
+}
+.footballers{
+    background-image: url("images/footballers.png");
+}
+.badmintons{
+    background-image: url("images/badmintons.png");
+}
+.school{
+    background-image: url("images/school.png");
+}
+.foundation{
+    background-image: url("images/foundation.png");
+}
+.main-content-bottom-right-content-videos-head_flexbox{
+    display: flex;
+}
+
+.main-content-bottom-right-content-videos-head-icon{
+    background-image: url("images/videocamIcon.png");
+    width: 29px;
+    height: 26px;
+}
+.britain{
+    background-image: url("images/britain.png");
+}
+.formula1{
+    background-image: url("images/formula1.png");
+}
+.footballerPhoto{
+    background-image: url("images/footballerPhoto.png");
+}
+.flood{
+    background-image: url("images/flood.png");
+}
+.food{
+    background-image: url("images/food.png");
+}
+.text{
+    background-image: url("images/text.png");
 }
