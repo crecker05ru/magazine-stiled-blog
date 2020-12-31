@@ -70,13 +70,15 @@ body {
     height: 37px;
 
 }
-
+.active-navigation-page-text{
+    color: #de004e;
+}
 .main-content{
     background-color: #fff;
     border-radius: 10px;
     width: 1250px;
     height: 1330px;
-    margin: 30px 125px 20px 125px;
+    margin: 0 125px 20px 125px;
     padding: 30px 30px;
 }
 
