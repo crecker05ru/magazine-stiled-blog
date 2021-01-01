@@ -452,7 +452,7 @@ body {
 }
 
 @media screen and (min-width: 1080px){
-    body {
+    body,.main-content,.footer {
     width:70%;
   }
 }
