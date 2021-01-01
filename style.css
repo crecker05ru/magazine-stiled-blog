@@ -7,11 +7,9 @@
 body {
     background-color: #e4e4e4;
 }
-
 .header-title-box {
     height: 50px;
-    padding: 30px 125px 10px 125px;
-    min-width: 900px;
+    padding: 30px 70px 10px 125px;
     display: flex;
     justify-content: space-between;
 }
@@ -28,15 +26,18 @@ body {
     font-weight: bold;
     font-family: "SansationRegular";
 }
-
+.header-search{
+    position: relative;
+}
 .header-search__input{
     background-color:ededed;
     border-radius: 20px;
     box-shadow: 0 0 10px #e4e4e4;
     font-style: italic;
     z-index: 3;
-    width: 250px;
+    width: 220px;
     height: 30px;
+    padding-left: 20px;
 }
 
 .header-search__button_icon{
@@ -46,15 +47,15 @@ body {
     cursor: pointer;
     z-index: 5;
     position: absolute;
-    right: 365px;
-    top:50px;
+    right: 226px;
+    top:14px;
     
 }
 .header-navigation{
     display: flex;
     justify-content: space-between;
     min-width: 900px;
-    padding: 5px 125px 10px 125px;
+    padding: 5px 70px 10px 125px;
 }
 .header-menu_font_italic{
     font-style: italic;
