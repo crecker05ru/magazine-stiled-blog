@@ -7,6 +7,7 @@
 body {
     background-color: #e4e4e4;
 }
+
 .header-title-box {
     height: 50px;
     padding: 30px 125px 10px 125px;
@@ -449,10 +450,4 @@ body {
     background-image: url("images/twitterIcon.png");
     width: 32px;
     height: 26px;
-}
-
-@media screen and (max-width: 1080px){
-    body,.main-content,.footer {
-    width:70%;
-  }
 }
