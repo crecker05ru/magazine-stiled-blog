@@ -6,10 +6,13 @@
 
 body {
     background-color: #e4e4e4;
+    width:1200px ;
+    align-items: center;
+    margin: auto;
 }
 .header-title-box {
     height: 50px;
-    padding: 30px 70px 10px 125px;
+    padding: 30px 90px 10px 90px;
     display: flex;
     justify-content: space-between;
 }
@@ -21,7 +24,7 @@ body {
 }
 .header-text{
     color:#7f7f7f;
-    margin-right: 390px ;
+    margin-right: 20px ;
     padding-top: 5px;
     font-weight: bold;
     font-family: "SansationRegular";
@@ -47,7 +50,7 @@ body {
     cursor: pointer;
     z-index: 5;
     position: absolute;
-    right: 226px;
+    right: 224px;
     top:14px;
     
 }
@@ -55,7 +58,7 @@ body {
     display: flex;
     justify-content: space-between;
     min-width: 900px;
-    padding: 5px 70px 10px 125px;
+    padding: 5px 90px 10px 90px;
 }
 .header-menu_font_italic{
     font-style: italic;
@@ -78,9 +81,9 @@ body {
 .main-content{
     background-color: #fff;
     border-radius: 10px;
-    width: 1250px;
+    width: 950px;
     height: 1330px;
-    margin: 0 125px 20px 125px;
+    margin: auto;
     padding: 30px 30px;
 }
 
@@ -425,8 +428,8 @@ body {
 .footer-content{
     display: flex;
     justify-content: space-between;
-    width: 1300px;
-    margin: 10px 0 20px 130px;
+    width: 1000px;
+    margin: 10px auto 20px auto;
 }
 .footer-copyright-text{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
