@@ -450,3 +450,9 @@ body {
     width: 32px;
     height: 26px;
 }
+
+@media screen and (min-width: 1080px){
+    body {
+    width:70%;
+  }
+}
